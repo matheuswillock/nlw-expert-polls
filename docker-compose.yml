@@ -7,10 +7,10 @@ services:
       - '5432:5432'
     environment:
       - POSTGRES_USER=docker
-      - POSTGRES_PASSWORD=1q2w3e4r@#$
+      - POSTGRES_PASSWORD=docker
       - POSTGRES_DB=polls
     volumes:
-      - polls_pg_data:/bitnami/postgresqls
+      - polls_pg_data:/bitnami/postgresql
 
   redis:
     image: bitnami/redis:latest
