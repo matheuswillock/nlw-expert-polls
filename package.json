@@ -8,6 +8,7 @@
   "devDependencies": {
     "@types/bun": "latest",
     "@types/node": "^20.11.17",
+    "@types/ws": "^8.5.10",
     "prisma": "^5.9.1",
     "tsx": "^4.7.1",
     "typescript": "^5.3.3"
@@ -17,8 +18,10 @@
   },
   "dependencies": {
     "@fastify/cookie": "^9.3.1",
-    "@prisma/client": "5.9.1",
-    "fastify": "^4.26.1",
+    "@fastify/websocket": "^8.3.1",
+    "@prisma/client": "^5.8.1",
+    "fastify": "latest",
+    "ioredis": "^5.3.2",
     "zod": "^3.22.4"
   }
 }
